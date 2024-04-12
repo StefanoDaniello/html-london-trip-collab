@@ -16,7 +16,7 @@ import FooterBottom from './components/FooterBottom.vue';
     name: 'App',
     components: {
         HeaderComponent,
-        MainTop,
+        CardList,
         MainComponent,
         FooterComponent,
         FooterBottom
