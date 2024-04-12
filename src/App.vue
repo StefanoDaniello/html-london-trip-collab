@@ -1,6 +1,6 @@
 <template>
   <HeaderComponent/>
-  <MainTop/>
+  <CardList/>
   <MainComponent/>
   <FooterComponent/>
   <FooterBottom/>
@@ -8,7 +8,7 @@
 
 <script>
 import HeaderComponent from './components/HeaderComponent.vue';
-import MainTop  from './components/MainTop.vue';
+import CardList from './components/CardList.vue';
 import MainComponent from './components/MainComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
 import FooterBottom from './components/FooterBottom.vue';
