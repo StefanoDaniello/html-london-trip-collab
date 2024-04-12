@@ -1,12 +1,12 @@
 <template>
-    <footer>
-        <h3>Info utili</h3> <!-- Informazioni -->
+        <footer>
+            <h3>Info utili</h3> <!-- Informazioni -->
             <ol>
                 <li>Numeri utili di emergenza
                     <ul>
                         <li><strong>999</strong> - Emergenza</li>
                         <li><strong>101</strong> - Numero polizia</li>
-                        <li><strong>111</strong> - Numero assistenza medica</li>    
+                        <li><strong>111</strong> - Numero assistenza medica</li>
                     </ul>
                 </li>
                 <li>Hotel
@@ -22,14 +22,16 @@
                     </ul>
                 </li>
             </ol>
-    </footer>
+            <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg/900px-Palace_of_Westminster_from_the_dome_on_Methodist_Central_Hall_%28cropped%29.jpg alt="">
+        </footer>
+
 </template>
 
 <script>
-    export default {
-        name: 'FooterComponent'
-        
-    }
+export default {
+    name: 'FooterComponent'
+
+}
 </script>
 
 <style lang="scss" scoped>
