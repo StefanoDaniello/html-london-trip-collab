@@ -22,3 +22,11 @@ body{
 h1 {
     color: $bluetext;
 }
+
+footer{
+    text-align: center;
+    ul, ol{
+        list-style: none;
+    }
+    
+}
