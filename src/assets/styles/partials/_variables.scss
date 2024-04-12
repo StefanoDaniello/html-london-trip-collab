@@ -5,3 +5,9 @@ $bluetext: rgb(24, 71, 132);
 $colorred: red;
 
 $basefont: "Roboto", sans-serif;
+
+@mixin wp-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
